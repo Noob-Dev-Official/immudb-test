@@ -1,5 +1,5 @@
-import pg8000.native
-import psycopg2
+# import pg8000.native
+# import psycopg2
 from immudb import ImmudbClient
 
  
@@ -28,6 +28,9 @@ def db():
    # return conn, cur
 
    client = ImmudbClient()
-   client.login("immudb", "immudb")
+   client.login('immudb', 'immudb')
 
    return client
+
+if __name__ == "__main__":
+   db()
