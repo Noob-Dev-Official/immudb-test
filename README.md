@@ -9,7 +9,7 @@ or
 ## Ports for immudb to open
 
 **port 8080:** for web dashboard \
-**port 3322:** for immudb backend database server \ 
+**port 3322:** for immudb backend database server \  
 **port 5432:** for immudb database access via psql
 
 ## CLI command to connect to immudb via psql
